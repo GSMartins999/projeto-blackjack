@@ -1,4 +1,4 @@
-alert("Olá seja muito bem vindo jogador!")
+console.log("Olá seja muito bem vindo jogador! Vamos começar..")
 
 if (confirm("Este jogo se chama black jack, você quer jogar ?")
 ) {
