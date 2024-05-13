@@ -7,7 +7,7 @@ function comprarCarta() {
   const cartas = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 
   // Cria array de naipes
-  const naipes = ["♦️", "♥️", "♣️", "♠️"]
+  const naipes = ["-D", "-H", "-C", "-S"]
 
   // Sorteia uma carta
   const numero = cartas[Math.floor(Math.random() * 13)]

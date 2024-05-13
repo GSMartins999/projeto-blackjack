@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link href="./paginaJogo.css" rel="stylesheet" href="">
+</head>
+
+<body>
+    <script type="application/javascript" src="./../js/baralho.js"></script>
+    <script defer type="module" src="./../js/paginaJogo.js"></script>
+
+    <main>
+        <h1 id="titulo" class="titulo">
+            Bem vindo ao BlackJack, gostaria de jogar?
+        </h1>
+        <div class="containerButtons"> 
+            <button class="buttonYes" id="botaoYes">Sim</button>
+            <button class="buttonNo" id="botaoNo">Não</button>
+        </div>
+        <div id="jogador" class="area-cartas">
+            <h2>Jogador: </h2>
+        </div>
+        <div id="computador" class="area-cartas">
+            <h2>Computador: </h2>
+        </div>
+        <div id="containerBotoes"></div>
+        <span id="resultado"></span>
+    </main>
+    
+</body>
+
+</html>
